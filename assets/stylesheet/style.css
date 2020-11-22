@@ -17,3 +17,38 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+header {
+  background-color: var(--chumbo);
+  border-bottom: 3px solid var(--vermelho);
+  color: #fff;
+  padding: 16px;
+}
+
+header #brand {
+  display: inline-block;
+}
+
+header #brand img {
+  filter: brightness(1) contrast(0);
+  height: 40px;
+  margin-right: 16px;
+}
+
+header #brand img,
+header #brand div {
+  display: inline-block;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 8px;
+}
+
+header ul li a:hover {
+  color: var(--vermelho);
+}
