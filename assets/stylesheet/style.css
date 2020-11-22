@@ -52,3 +52,29 @@ header ul li {
 header ul li a:hover {
   color: var(--vermelho);
 }
+
+#topo {
+  background-color: var(--azul);
+  color: #fff;
+  text-align: center;
+}
+
+#topo article {
+  height: calc(100vh - 81px);
+  padding: 240px 40px;
+}
+
+#topo article h1 {
+  font-size: 3rem;
+}
+
+#topo article p {
+  font-size: 2rem;
+  margin: 24px auto 80px;
+}
+
+#topo article a.btn {
+  background-color: var(--chumbo);
+  font-size: 1.5rem;
+  padding: 24px 32px;
+}
