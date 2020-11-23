@@ -92,6 +92,10 @@ header ul li a:hover {
   padding: 24px 32px;
 }
 
+#vantagens {
+  padding: 96px 16px 16px;
+}
+
 #vantagens .vantagem {
   background-color: var(--azul);
   color: white;
@@ -114,7 +118,7 @@ header ul li a:hover {
 
 #inscricao {
   background-color: var(--bg-light);
-  padding: 40px;
+  padding: 96px 40px 40px;
 }
 
 #inscricao h3 {
@@ -125,4 +129,37 @@ header ul li a:hover {
   height: 50vh;
   line-height: 50vh;
   text-align: center;
+}
+
+#premios {
+  padding: 96px 16px 16px;
+}
+
+#premios .premios-container {
+  margin: auto;
+  max-width: 100%;
+  min-width: 50%;
+  width: 63%;
+}
+
+#premios .premio {
+  background-color: var(--bg-light);
+  border: 2px solid var(--azul);
+  border-radius: 50%;
+  display: inline-block;
+  height: 240px;
+  margin: 24px;
+  padding: 40px;
+  text-align: center;
+  width: 240px;
+}
+
+#premios .premio h3 {
+  color: var(--azul);
+  font-size: 2rem;
+}
+
+#premios .premio p {
+  color: var(--chumbo);
+  font-size: 1.2rem;
 }
