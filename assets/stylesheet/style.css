@@ -91,3 +91,23 @@ header ul li a:hover {
   font-size: 1.5rem;
   padding: 24px 32px;
 }
+
+#vantagens .vantagem {
+  background-color: var(--azul);
+  color: white;
+  display: inline-block;
+  margin: 24px 8px;
+  height: 33vh;
+  padding: 16px;
+  text-align: center;
+  vertical-align: middle;
+  width: calc(33% - 13px);
+}
+
+#vantagens .vantagem h3 {
+  font-size: 2rem;
+}
+
+#vantagens .vantagem p {
+  font-size: 1.5rem;
+}
