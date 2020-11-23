@@ -198,6 +198,17 @@ main {
   width: 75%;
 }
 
+#regras .regras::-webkit-scrollbar {
+  background-color: rgba(255,255,255,.3);
+  border-radius: 16px;
+}
+
+#regras .regras::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 16px;
+  width: 16px;
+}
+
 #regras a.btn {
   background-color: var(--chumbo);
   display: block;
