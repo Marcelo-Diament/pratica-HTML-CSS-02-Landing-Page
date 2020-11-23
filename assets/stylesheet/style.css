@@ -69,6 +69,12 @@ header ul li a:hover {
 
 #topo {
   background-color: var(--azul);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-image: url('../img/top-bg-image.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
 }
