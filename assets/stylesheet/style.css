@@ -1,7 +1,7 @@
 :root {
   --azul: #0877f5;
   --chumbo: #333;
-  --vermelho: #f50808;
+  --bg-light: #efefef;
 }
 
 
@@ -110,4 +110,19 @@ header ul li a:hover {
 
 #vantagens .vantagem p {
   font-size: 1.5rem;
+}
+
+#inscricao {
+  background-color: var(--bg-light);
+  padding: 40px;
+}
+
+#inscricao h3 {
+  border: 1px solid var(--chumbo);
+  border-radius: 8px;
+  color: var(--chumbo);
+  font-size: 3rem;
+  height: 50vh;
+  line-height: 50vh;
+  text-align: center;
 }
