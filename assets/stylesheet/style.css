@@ -1,7 +1,8 @@
 :root {
   --azul: #0877f5;
-  --chumbo: #333;
   --bg-light: #efefef;
+  --chumbo: #333;
+  --vermelho: #c03333;
 }
 
 
@@ -162,4 +163,33 @@ header ul li a:hover {
 #premios .premio p {
   color: var(--chumbo);
   font-size: 1.2rem;
+}
+
+#regras {
+  background-color: var(--azul);
+  color: white;
+  padding: 96px 16px;
+}
+
+#regras h2 {
+  color: white;
+}
+
+#regras .regras {
+  height: 120px;
+  margin: 16px auto 32px;
+  overflow-y: scroll;
+  width: 75%;
+}
+
+#regras a.btn {
+  background-color: var(--chumbo);
+  display: block;
+  margin: 16px auto;
+  padding: 16px 24px;
+  width: fit-content;
+}
+
+#regras a.btn:hover {
+  background-color: var(--vermelho);
 }
