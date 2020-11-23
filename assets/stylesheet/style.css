@@ -99,6 +99,10 @@ header ul li a:hover {
   padding: 24px 32px;
 }
 
+#topo article a.btn:hover {
+  background-color:var(--azul);
+}
+
 #vantagens {
   padding: 96px 16px 16px;
 }
